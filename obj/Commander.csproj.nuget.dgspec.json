@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PAN142\\source\\repos\\CommaderMVC\\Commander\\Commander.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PAN142\\source\\repos\\CommaderMVC\\Commander\\Commander.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PAN142\\source\\repos\\CommaderMVC\\Commander\\Commander.csproj",
+        "projectName": "Commander",
+        "projectPath": "C:\\Users\\PAN142\\source\\repos\\CommaderMVC\\Commander\\Commander.csproj",
+        "packagesPath": "C:\\Users\\PAN142\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PAN142\\source\\repos\\CommaderMVC\\Commander\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PAN142\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://damco-digitalplatform.pkgs.visualstudio.com/_packaging/Damco-Prana/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SCMPlatform/47572d34-441d-46be-9608-cc476d95993e/_packaging/Maersk-Origin-SCM/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SCMPlatform/4923df8f-267e-4b0d-afbc-06e9d13e9cf6/_packaging/DocMan/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SCMPlatform/_packaging/Damco-Cortex%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SCMPlatform/_packaging/Maersk.NSCP%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/damco-digitalplatform/_packaging/Damco-Docman/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
