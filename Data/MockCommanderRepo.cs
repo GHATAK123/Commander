@@ -4,6 +4,15 @@ using Commander.Models;
 
 namespace Commander.Data {
     public class MockCommanderRepo:ICommanderRepo {
+        public void CreateCommand(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeleteCommand(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
 
         public IEnumerable<Command> GetAllCommands() {
             // throw new NotImplementedException();
@@ -14,7 +23,6 @@ namespace Commander.Data {
                 new Command{Id =3,HowTo = "Make boiled Eggs",Line = "Boil Eggs Water",Platform="Kettle & Pan"}
 
             };
-
             return commands;
 
         }
@@ -23,6 +31,14 @@ namespace Commander.Data {
             return new Command{Id =0,HowTo = "Boil an Egg",Line = "Boil Water",Platform="Kettle & Pan"};
         }
 
-        
+        public bool SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateCommand(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
