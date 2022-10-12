@@ -35,6 +35,15 @@ namespace Commander.Comtrollers{
              return NotFound();
 
         }
+        
+        [HttpGet("{emailId}",Name="GetCommandByEmailId")]
+        public ActionResult <CommanderReadDtos> GetCommandByEmailId(int emailId) {
+
+            var commandItem = _repository.GetCommandByEmailId(emailId);
+             if(commandItem != null) return Ok(_mapper.Map<CommanderReadDtos>(commandItem));
+             return NotFound();
+
+        }
 
         [HttpPost]
         public ActionResult <CommanderReadDtos> CreateCommand(CommanderCreateDtos cmd) {
