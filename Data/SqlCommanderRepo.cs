@@ -44,5 +44,9 @@ namespace Commander.Data {
         {
             // Nothing
         }
+        public Command GetCommandByEmailId(String emailId)
+        {
+            return _context.Commands.FirstOrDefault(p => p.emailId == emailId);
+        }
     }
 }
